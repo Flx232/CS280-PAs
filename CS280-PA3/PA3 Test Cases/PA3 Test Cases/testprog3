@@ -1,0 +1,14 @@
+PROGRAM  rectangle
+	/*Compatible numeric mixed types*/
+	INT width, length; 
+	FLOAT area, perimeter ;	
+
+	Width = 8.25;
+	length = 12.5;
+	area = width * length;
+	perimeter = 2*width + 2 * length;
+	
+	/*Display the results*/
+	PRINT ( "The rectangle width and length are " , width, " ", length);
+	PRINT ( "The rectangle area and perimeter are " , area," ", perimeter);
+END PROGRAM 

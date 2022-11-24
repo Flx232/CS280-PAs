@@ -1,0 +1,15 @@
+PROGRAM Cylinder
+	/*Illegal use of program name as a variable name*/
+	INT r, a, h, b; 
+	BOOL bvar1, bvar2;
+	r = 8;
+	h = 10;
+	a = 0;
+	
+	FLOAT surface, volume;
+	volume = 3.14 * r * r * h;
+	surface = 2 * 3.14 * r * h + 2 * 3.14 * r * r;
+	
+	/*Display the results*/
+	PRINT  ("The output results are " , volume, " ", surface, " " , h, " ", r, Cylinder);
+END  PROGRAM

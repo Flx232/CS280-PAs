@@ -1,0 +1,16 @@
+PROGRAM Cylinder
+	/*Clean Program testing expression evaluation with nested parentheses*/
+	INT r, a, h, b; 
+	BOOL bvar1, bvar2;
+	r = 8;
+	h = 10;
+	a = 0;
+	
+	IF ( r > 5 && h > r) THEN
+		FLOAT surface, volume;
+	  	volume = 3.14 * r * r * h;
+	  	surface = (2 * 3.14 * (r * h ) + (2 * 3.14 ) * (r * r));
+	END IF; 
+	/*Display the results*/
+	PRINT  ("The output results are " , volume, " ", surface, " " , h, " ", r);
+END  PROGRAM

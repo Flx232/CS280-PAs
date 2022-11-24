@@ -1,0 +1,16 @@
+PROGRAM circle
+ /*If_Stmt test with relational expresssion*/
+	FLOAT r, a, p ; 
+	INT j ;	
+	r = 8;
+	p = 4;
+	a = 0;
+	j = -1;
+	IF ( r > p + j) THEN
+	  a = (3.14) * r * r;
+	  p = 2 * 3.14 * p;
+	END IF;
+	
+	/*Display the results*/
+	PRINT ( "The output results are " , a, ", ", r, ", ", p);
+END  PROGRAM

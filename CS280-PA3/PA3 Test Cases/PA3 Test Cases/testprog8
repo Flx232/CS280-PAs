@@ -1,0 +1,15 @@
+PROGRAM Cylinder
+	/*Testing Divide by zero operation*/
+	INT r, a, p, h; 
+	r = 8;
+	h = 10;
+	a = 0;
+	p = r / a;
+	FLOAT v, s;
+	IF ( r > 5) THEN
+	  v = (3.14) * r * r;
+	  s = 2 * 3.14 * r * h + 2 * 3.14 * r * r;
+	END IF; 
+	/*Display the results*/
+	PRINT  "The output results are " , v, s, r);
+END  PROGRAM

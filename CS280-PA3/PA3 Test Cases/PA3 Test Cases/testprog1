@@ -1,0 +1,12 @@
+PROGRAM circle
+	/*Undefined variable*/
+	FLOAT r, a, p, b; 
+	
+	r = 8;
+	a = 0;
+	
+	IF ( r > 5) THEN a = (3.14) * r * r; END IF;
+	IF (a < 100) THEN p = 2 * 3.14 * b; END IF; 
+	/*Display the results*/
+	PRINT ( "The output results are " , r, p, b);
+END PROGRAM

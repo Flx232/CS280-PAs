@@ -1,0 +1,15 @@
+PROGRAM Cylinder
+	/*Illegal operands type for Add operator*/
+	INT r, a, h, b; 
+	BOOL bvar1, bvar2;
+	r = 8;
+	h = 10;
+	a = 0;
+	
+	FLOAT surface, volume;
+	bvar1 = (r == 8);
+	bvar2 = bvar1 ;
+	
+	/*Display the results*/
+	PRINT  ("The output results " + "for Boolean variables ", bvar1, " ", bvar2);
+END  PROGRAM

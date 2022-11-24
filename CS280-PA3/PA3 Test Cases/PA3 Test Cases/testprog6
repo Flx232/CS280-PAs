@@ -1,0 +1,18 @@
+PROGRAM  LogicExp
+	/*Illegal mixed type operands for a logic operator*/
+	INT width, length; 
+	FLOAT area, perimeter ;	
+	BOOL bvar1, bvar2;
+
+	bvar1 = TRUE;
+	bvar2 = FALSE;
+	BOOL bres1, bres2, bres3;
+	width = 5;
+	bres1 = bvar1 || width;
+	bres2 = bres1 && bvar1;
+	bres3 = bvar1 && !bvar2;
+	
+	/*Display the results*/
+	PRINT ( "The values of boolean variables " , bvar1, " ", bvar2);
+	PRINT ( "The results of logic operations " , bres1," ", bres2, " ", bres3);
+END PROGRAM
